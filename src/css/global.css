@@ -5,6 +5,11 @@
 @tailwind utilities;
 
 @layer components {
+
+  body {
+    @apply text-dark font-NotoSans;
+  }
+
   h1,
   h2,
   h3,
