@@ -24,16 +24,18 @@ module.exports = {
         third: "#FFF4B0",
 
         dark: "#101820",
-        "dark-light": "#1F314F",
+        "dark-gray": "#1F314F",
 
         light: "#EFF2F5",
 
         "text-dark": "#333333",
         "text-gray": "#707479",
+
+        "border-light": "#DFE5EA",
       },
       fontFamily: {
         "Noto-Sans": ["Noto Sans", "sans-serif"],
-        'Poppins': ["Poppins", "sans-serif"],
+        Poppins: ["Poppins", "sans-serif"],
       },
       fontSize: {
         "heading-1": ["48px", "64px"],
