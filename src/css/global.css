@@ -6,7 +6,7 @@
 
 @layer components {
   body{
-    @apply font-Noto-Sans ;
+    @apply font-Noto-Sans;
   }
   h1,
   h2,
