@@ -5,9 +5,10 @@
 @tailwind utilities;
 
 @layer components {
-  body {
-    @apply font-Noto-Sans;
+  body{
+    @apply font-Noto-Sans ;
   }
+
   h1,
   h2,
   h3,
@@ -29,9 +30,9 @@
   }
 
   .btn-primary {
-    @apply text-light bg-dark-gray hover:bg-dark transition-all duration-300 ease-linear px-10 min-h-12 rounded-md;
+    @apply text-light bg-dark-gray hover:bg-dark transition-all duration-300 ease-linear px-5 lg:px-10 min-h-6 lg:min-h-12 rounded-md;
   }
   .btn-secondary {
-    @apply text-dark bg-transparent hover:bg-dark-gray hover:text-light transition-all duration-300 ease-linear px-10 min-h-12 rounded-md border border-dark-gray;
+    @apply text-dark bg-transparent hover:bg-dark-gray hover:text-light transition-all duration-300 ease-linear px-5 lg:px-10 min-h-6 lg:min-h-12 rounded-md border border-dark-gray;
   }
 }
