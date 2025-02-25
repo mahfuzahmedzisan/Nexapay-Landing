@@ -39,6 +39,7 @@ module.exports = {
       fontFamily: {
         "Noto-Sans": ["Noto Sans", "sans-serif"],
         Poppins: ["Poppins", "sans-serif"],
+        FontAwesome: ["FontAwesome"]
       },
       fontSize: {
         "heading-1": ["48px", "64px"],

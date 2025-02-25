@@ -9,6 +9,7 @@
     <script src="https://unpkg.com/lucide@latest"></script>
     <!-- Font Awesome Icons  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
     <!-- Tailwind css  -->
     <link rel="stylesheet" href="./src/css/global.css">
     <!-- Custom css -->
@@ -194,7 +195,86 @@
         <!-- Testimonial Section -->
         <section class="py-20 bg-primary rounded-3xl">
             <div class="container">
+                <h2 class="text-heading-2 text-center">Trusted by Buyers and Banking Partners</h2>
+                <div class="flex items-center gap-10 mt-5 justify-center">
+                    <button class="w-8 h-8 border border-dark text-dark rounded flex items-center justify-center">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </button>
+                    <div class="flex items-center gap-2">
+                        <span class="w-2 h-2 rounded-full cursor-pointer bg-dark"></span>
+                        <span class="w-2 h-2 rounded-full cursor-pointer bg-dark/50"></span>
+                        <span class="w-2 h-2 rounded-full cursor-pointer bg-dark/50"></span>
+                        <span class="w-2 h-2 rounded-full cursor-pointer bg-dark/50"></span>
+                        <span class="w-2 h-2 rounded-full cursor-pointer bg-dark/50"></span>
+                        <span class="w-2 h-2 rounded-full cursor-pointer bg-dark/50"></span>
+                        <span class="w-2 h-2 rounded-full cursor-pointer bg-dark/50"></span>
+                        <span class="w-2 h-2 rounded-full cursor-pointer bg-dark/50"></span>
+                    </div>
+                    <button class="w-8 h-8 border border-dark text-dark rounded flex items-center justify-center">
+                        <i class="fa-solid fa-angle-right "></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Slider -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 overflow-hidden mt-10 px-20">
+                <div class="basis-1/3  card bg-white max-w-[548px]">
+                    <div class="card-body p-14">
+                        <h4 class="text-heading-4 mb-7">NexaPay streamlined our Brazil-Asia transactions, cutting
+                            payment
+                            delays by 50%.</h4>
+                        <div class="flex gap-10">
+                            <a href=""><img class="avatar w-10 h-auto object-cover rounded-full"
+                                    src="./src/images/Photo (1).png" alt="Author"></a>
+                            <p>Client, <br>
+                                Brazilian Importer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="basis-1/3  card bg-white overflow-hidden relative">
+                    <span class="absolute inset-0 bg-dark/50 z-0"></span>
+                    <button
+                        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-3xl text-light w-16 h-16 rounded-full flex items-center justify-center bg-dark/80 z-[1]"><i
+                            data-lucide="play"></i></button>
+                    <img class="w-full object-cover" src="./src/images/Rectangle 10.png" alt="Video">
+                </div>
+                <div class="basis-1/3  card bg-white max-w-[548px]">
+                    <div class="card-body p-14">
+                        <h4 class="text-heading-4 mb-7">NexaPay streamlined our Brazil-Asia transactions, cutting
+                            payment
+                            delays by 50%.</h4>
+                        <div class="flex gap-10">
+                            <a href=""><img class="avatar w-10 h-auto object-cover rounded-full"
+                                    src="./src/images/Photo.png" alt="Author"></a>
+                            <p>Client, <br>
+                                Brazilian Importer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="container text-center mt-16">
+                <button class="btn btn-primary shadow-lg shadow-dark">
+                    See More Success Stories
+                </button>
+            </div>
+        </section>
+
+
+        <!-- Partners Section -->
+        <section class="py-20">
+            <div class="container max-w-[90%] flex gap-10 justify-between items-center">
+                <a href="">
+                    <img src="./src/images/santander.png" alt="Santander">
+                </a>
+                <a href="">
+                    <img src="./src/images/branco do brazil.png" alt="Branco Do Brazil">
+                </a>
+                <a href="">
+                    <img src="./src/images/bradesco.png" alt="Bradesco">
+                </a>
+                <a href="">
+                    <img src="./src/images/caxixa bank.png" alt="Caxixa Bank">
+                </a>
             </div>
         </section>
     </main>
@@ -203,6 +283,7 @@
     <script>
         lucide.createIcons();
     </script>
+
 </body>
 
 </html>
