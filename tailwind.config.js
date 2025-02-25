@@ -21,7 +21,9 @@ module.exports = {
       colors: {
         primary: "#FCD005",
         secondary: "#FFE70C",
-        third: "#FFF4B0",
+        teritary: "#FFF4B0",
+        quaternary: "#EFF2F5",
+        
 
         dark: "#101820",
         "dark-gray": "#1F314F",
@@ -32,6 +34,7 @@ module.exports = {
         "text-gray": "#707479",
 
         "border-light": "#DFE5EA",
+        "hover-bg-dark":'#1F314FCC',
       },
       fontFamily: {
         "Noto-Sans": ["Noto Sans", "sans-serif"],

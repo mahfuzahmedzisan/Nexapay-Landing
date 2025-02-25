@@ -5,11 +5,6 @@
 @tailwind utilities;
 
 @layer components {
-
-  body{
-    @apply font-Noto-Sans;
-  }
-
   h1,
   h2,
   h3,
@@ -19,7 +14,7 @@
     @apply font-bold text-dark font-Poppins;
   }
   p{
-    @apply text-text-dark;
+    @apply text-text-dark ;
   }
 
   .btn {
