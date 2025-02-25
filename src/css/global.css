@@ -5,10 +5,6 @@
 @tailwind utilities;
 
 @layer components {
-  body{
-    @apply font-Noto-Sans ;
-  }
->>>>>>>>> Temporary merge branch 2
   h1,
   h2,
   h3,
