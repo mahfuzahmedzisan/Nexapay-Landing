@@ -21,19 +21,24 @@ module.exports = {
       colors: {
         primary: "#FCD005",
         secondary: "#FFE70C",
-        third: "#FFF4B0",
+        teritary: "#FFF4B0",
+        quaternary: "#EFF2F5",
+        
 
         dark: "#101820",
-        "dark-light": "#1F314F",
+        "dark-gray": "#1F314F",
 
         light: "#EFF2F5",
 
         "text-dark": "#333333",
         "text-gray": "#707479",
+
+        "border-light": "#DFE5EA",
+        "hover-bg-dark":'#1F314FCC',
       },
       fontFamily: {
         "Noto-Sans": ["Noto Sans", "sans-serif"],
-        'Poppins': ["Poppins", "sans-serif"],
+        Poppins: ["Poppins", "sans-serif"],
       },
       fontSize: {
         "heading-1": ["48px", "64px"],
