@@ -38,7 +38,7 @@ module.exports = {
       fontSize: {
         "heading-1": ["48px", "64px"],
         "heading-2": ["36px", "48px"],
-        "heading-3": ["24px", "32px"],
+        "heading-3": ["28px", "36px"],
         "heading-4": ["20px", "28px"],
         "heading-5": ["16px", "24px"],
         "heading-6": ["14px", "20px"],
