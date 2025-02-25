@@ -9,12 +9,12 @@ module.exports = {
         lg: "0",
       },
       screens: {
-        sm: "480px",
-        md: "640px",
-        lg: "768px",
-        xl: "992px",
-        "2xl": "1024px",
-        "3xl": "1120px",
+        sm: "30rem", // 480px
+        md: "40rem", // 640px
+        lg: "48rem", // 768px
+        xl: "62rem", // 992px
+        "2xl": "64rem", // 1024px
+        "3xl": "70rem", // 1120px
       },
     },
     extend: {
@@ -23,7 +23,6 @@ module.exports = {
         secondary: "#FFE70C",
         teritary: "#FFF4B0",
         quaternary: "#EFF2F5",
-        
 
         dark: "#101820",
         "dark-gray": "#1F314F",
@@ -34,24 +33,24 @@ module.exports = {
         "text-gray": "#707479",
 
         "border-light": "#DFE5EA",
-        "hover-bg-dark":'#1F314FCC',
+        "hover-bg-dark": '#1F314FCC',
       },
       fontFamily: {
         "Noto-Sans": ["Noto Sans", "sans-serif"],
         Poppins: ["Poppins", "sans-serif"],
       },
       fontSize: {
-        "heading-1": ["64px", "48px"],
-        "heading-2": ["48px", "36px"],
-        "heading-3": ["36px", "28px"],
-        "heading-4": ["28px", "20px"],
-        "heading-5": ["16px", "24px"],
-        "heading-6": ["14px", "20px"],
+        "heading-1": ["4rem", "3rem"], // 64px, 48px
+        "heading-2": ["3rem", "2.25rem"], // 48px, 36px
+        "heading-3": ["2.25rem", "1.75rem"], // 36px, 28px
+        "heading-4": ["1.75rem", "1.25rem"], // 28px, 20px
+        "heading-5": ["1rem", "1.5rem"], // 16px, 24px
+        "heading-6": ["0.875rem", "1.25rem"], // 14px, 20px
 
-        "paragraph-1": ["18px", "24px"],
-        "paragraph-2": ["16px", "20px"],
+        "paragraph-1": ["1.5rem", "1.125rem"], // 24px, 18px
+        "paragraph-2": ["1.25rem", "1rem"], // 20px, 16px
 
-        btn: ["16px", "24px"],
+        btn: ["1rem", "1.5rem"], // 16px, 24px
       },
     },
   },
