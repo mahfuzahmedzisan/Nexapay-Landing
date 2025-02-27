@@ -9,6 +9,7 @@
     <script src="https://unpkg.com/lucide@latest"></script>
     <!-- Font Awesome Icons  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
     <!-- Tailwind css  -->
     <link rel="stylesheet" href="./src/css/global.css">
     <!-- Custom css -->
@@ -46,25 +47,26 @@
                 <div class="flex-1 hidden md:flex">
                     <ul class="menu menu-horizontal px-1">
                         <li
-                            class="font-semibold text-paragraph-2 mr-12 last:mr-0 relative after:content-[''] after:absolute after:h-0.5 after:w-0 after:hover:w-full after:bg-dark after:top-full after:left-0 after:transition-all after:duration-300 after:ease-linear">
+                            class="font-semibold text-paragraph-2 mr-12 last:mr-0 relative pb-2 after:content-[''] after:absolute after:h-0.5 after:w-0 after:hover:w-full after:bg-dark after:top-full after:left-0 after:transition-all after:duration-300 after:ease-linear">
                             <a class="p-0" href="index.html">Home</a>
                         </li>
                         <li
-                            class="font-semibold text-paragraph-2 mr-12 last:mr-0 relative after:content-[''] after:absolute after:h-0.5 after:w-0 after:hover:w-full after:bg-dark after:top-full after:left-0 after:transition-all after:duration-300 after:ease-linear">
+                            class="font-semibold text-paragraph-2 mr-12 last:mr-0 relative pb-2 after:content-[''] after:absolute after:h-0.5 after:w-0 after:hover:w-full after:bg-dark after:top-full after:left-0 after:transition-all after:duration-300 after:ease-linear">
                             <a class="p-0" href="about.html">About Us</a>
                         </li>
                         <li
-                            class="font-semibold text-paragraph-2 mr-12 last:mr-0 relative after:content-[''] after:absolute after:h-0.5 after:w-0 after:hover:w-full after:bg-dark after:top-full after:left-0 after:transition-all after:duration-300 after:ease-linear">
+                            class="font-semibold text-paragraph-2 mr-12 last:mr-0 relative pb-2 after:content-[''] after:absolute after:h-0.5 after:w-0 after:hover:w-full after:bg-dark after:top-full after:left-0 after:transition-all after:duration-300 after:ease-linear">
                             <a class="p-0" href="solution.html">Solutions</a>
                         </li>
                         <li
-                            class="font-semibold text-paragraph-2 mr-12 last:mr-0 relative after:content-[''] after:absolute after:h-0.5 after:w-0 after:hover:w-full after:bg-dark after:top-full after:left-0 after:transition-all after:duration-300 after:ease-linear">
+                            class="font-semibold text-paragraph-2 mr-12 last:mr-0 relative pb-2 after:content-[''] after:absolute after:h-0.5 after:w-0 after:hover:w-full after:bg-dark after:top-full after:left-0 after:transition-all after:duration-300 after:ease-linear">
                             <a class="p-0" href="contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
                 <div class="flex-none flex gap-5">
-                    <a href="#" class="btn btn-primary px-3 lg:px-5 py-2 lg:py-3"><i data-lucide="user"></i>Login</a>
+                    <a href="#" class="btn btn-primary px-3 lg:px-5 py-2 lg:py-3"><img
+                            src="./src/images/security-user.png" alt="">Login</a>
                     <div class="dropdown dropdown-bottom dropdown-end">
                         <div tabindex="0" role="button" class="btn bg-transparent m-1">
                             <img class="avatar !w-5" src="./src/images/eng flag.png" alt="Flag">Eng <i
@@ -84,16 +86,16 @@
     </header>
     <!-- Hero Section -->
     <section
-        class="bg-cover bg-no-repeat bg-center relative after:content-[''] after:absolute after:h-full after:w-full after:bg-primary/70 after:top-0 after:left-0 after:z-[1] overflow-hidden rounded-b-3xl"
-        style="background-image: url('./src/images/Photo.jpg');">
+        class="bg-cover bg-no-repeat bg-center relative after:content-[''] after:absolute after:h-full after:w-full after:bg-primary/80 after:top-0 after:left-0 after:z-[1] overflow-hidden rounded-b-3xl"
+        style="background-image: url('./src/images/bg-1.png');">
         <span class="absolute top-1/2 left-0 -translate-y-1/2 z-[2]"><img src="./src/images/N.png" alt=""></span>
         <span class="absolute bottom-[10%] right-0  z-[2] hidden 2xl:block"><img src="./src/images/Screen.png"
                 alt=""></span>
         <div class="container relative z-[2] min-h-screen flex items-center">
-            <div class="lg:w-3/5 mt-28">
-                <h1 class="text-heading-1 mb-3">Cross-Border Payments
+            <div class="lg:w-4/5 mt-28">
+                <h1 class="text-heading-3 md:text-heading-2 lg:text-heading-1 mb-3">Cross-Border Payments
                     for LATAM-Asia</h1>
-                <h2 class="text-heading-3">Trade Made Simple</h2>
+                <h2 class="text-heading-4 md:text-heading-4 lg:text-heading-3">Trade Made Simple</h2>
 
                 <p class="text-paragraph-2 mt-5 w-2/3">Efficient, transparent, and compliant payment solutions
                     tailored for traditional and online B2B businesses</p>
@@ -108,7 +110,7 @@
 
     <main>
         <!-- Choose us section -->
-        <section class="pt-20 pb-40">
+        <section class="py-20">
             <div class="container">
                 <div>
                     <h2 class="text-heading-3">Why Choose NexaPay?</h2>
@@ -117,7 +119,7 @@
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mt-16">
                     <div class="md:odd:pt-20">
-                        <div class="bg-teritary rounded-2xl p-5 w-5/6 lg:w-[55%] float-end relative">
+                        <div class="bg-teritary rounded-2xl p-5 w-5/6 lg:w-4/6 float-end relative">
                             <span class="absolute top-1/2 -left-16 lg:-left-24 -translate-y-1/2 w-3/5 lg:w-3/4">
                                 <img class="w-52" src="./src/images/track3.png" alt="">
                             </span>
@@ -131,7 +133,7 @@
                         </div>
                     </div>
                     <div class="md:odd:pt-20">
-                        <div class="bg-teritary rounded-2xl p-5 w-5/6 lg:w-[55%] float-end relative">
+                        <div class="bg-teritary rounded-2xl p-5 w-5/6 lg:w-4/6 float-end relative">
                             <span class="absolute top-1/2 -left-16 lg:-left-24 -translate-y-1/2 w-3/5 lg:w-3/4">
                                 <img class="w-52" src="./src/images/cart3.png" alt="">
                             </span>
@@ -145,7 +147,7 @@
                         </div>
                     </div>
                     <div class="md:odd:pt-20">
-                        <div class="bg-teritary rounded-2xl p-5 w-5/6 lg:w-[55%] float-end relative">
+                        <div class="bg-teritary rounded-2xl p-5 w-5/6 lg:w-4/6 float-end relative">
                             <span class="absolute top-1/2 -left-16 lg:-left-24 -translate-y-1/2 w-3/5 lg:w-3/4">
                                 <img class="w-52" src="./src/images/coins3.png" alt="">
                             </span>
@@ -159,7 +161,7 @@
                         </div>
                     </div>
                     <div class="md:odd:pt-20">
-                        <div class="bg-teritary rounded-2xl p-5 w-5/6 lg:w-[55%] float-end relative">
+                        <div class="bg-teritary rounded-2xl p-5 w-5/6 lg:w-4/6 float-end relative">
                             <span class="absolute top-1/2 -left-16 lg:-left-24 -translate-y-1/2 w-3/5 lg:w-3/4">
                                 <img class="w-52" src="./src/images/laws3.png" alt="">
                             </span>
@@ -175,12 +177,204 @@
             </div>
             </div>
         </section>
+
+        <!-- MarkUp Section -->
+        <section class="relative py-20">
+            <span class="absolute -bottom-10 left-0 w-full h-2/3 z-[-1] bg-light rounded-t-3xl"></span>
+            <div class="container">
+                <figure>
+                    <img class="w-full" src="./src/images/SCREEN 5.png" alt="MarkUp Image">
+                </figure>
+                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                    <a href=""
+                        class="flex items-center gap-2 text-paragraph-2 lg:text-paragraph-1 px-7 py-3 font-semibold text-nowrap bg-primary rounded-full shadow-lg shadow-primary">See
+                        our product in action <i data-lucide="play"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial Section -->
+        <section class="py-20 bg-primary rounded-3xl">
+            <div class="container">
+                <h2 class="text-heading-2 text-center">Trusted by Buyers and Banking Partners</h2>
+                <div class="flex items-center gap-10 mt-5 justify-center">
+                    <button class="w-8 h-8 border border-dark text-dark rounded flex items-center justify-center">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </button>
+                    <div class="flex items-center gap-2">
+                        <span class="w-2 h-2 rounded-full cursor-pointer bg-dark"></span>
+                        <span class="w-2 h-2 rounded-full cursor-pointer bg-dark/50"></span>
+                        <span class="w-2 h-2 rounded-full cursor-pointer bg-dark/50"></span>
+                        <span class="w-2 h-2 rounded-full cursor-pointer bg-dark/50"></span>
+                        <span class="w-2 h-2 rounded-full cursor-pointer bg-dark/50"></span>
+                        <span class="w-2 h-2 rounded-full cursor-pointer bg-dark/50"></span>
+                        <span class="w-2 h-2 rounded-full cursor-pointer bg-dark/50"></span>
+                        <span class="w-2 h-2 rounded-full cursor-pointer bg-dark/50"></span>
+                    </div>
+                    <button class="w-8 h-8 border border-dark text-dark rounded flex items-center justify-center">
+                        <i class="fa-solid fa-angle-right "></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Slider -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 overflow-hidden mt-10 px-2 lg:px-20">
+                <div class="card bg-white max-w-[548px]">
+                    <div class="card-body p-14">
+                        <h4 class="text-heading-4 mb-7">NexaPay streamlined our Brazil-Asia transactions, cutting
+                            payment
+                            delays by 50%.</h4>
+                        <div class="flex gap-10">
+                            <a href=""><img class="avatar w-10 h-auto object-cover rounded-full"
+                                    src="./src/images/Photo (1).png" alt="Author"></a>
+                            <p>Client, <br>
+                                Brazilian Importer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="basis-1/3  card bg-white overflow-hidden relative">
+                    <span class="absolute inset-0 bg-dark/50 z-0"></span>
+                    <button
+                        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-3xl text-light w-16 h-16 rounded-full flex items-center justify-center bg-dark/80 z-[1]"><i
+                            data-lucide="play"></i></button>
+                    <img class="w-full object-cover" src="./src/images/Rectangle 10.png" alt="Video">
+                </div>
+                <div class="card bg-white max-w-[548px]">
+                    <div class="card-body p-14">
+                        <h4 class="text-heading-4 mb-7">NexaPay streamlined our Brazil-Asia transactions, cutting
+                            payment
+                            delays by 50%.</h4>
+                        <div class="flex gap-10">
+                            <a href=""><img class="avatar w-10 h-auto object-cover rounded-full"
+                                    src="./src/images/Photo.png" alt="Author"></a>
+                            <p>Client, <br>
+                                Brazilian Importer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container text-center mt-16">
+                <button class="btn btn-primary shadow-lg shadow-dark">
+                    See More Success Stories
+                </button>
+            </div>
+        </section>
+
+
+        <!-- Partners Section -->
+        <section class="py-20">
+            <div class="container max-w-[90%] flex gap-10 justify-between items-center">
+                <a href="">
+                    <img src="./src/images/santander.png" alt="Santander">
+                </a>
+                <a href="">
+                    <img src="./src/images/branco do brazil.png" alt="Branco Do Brazil">
+                </a>
+                <a href="">
+                    <img src="./src/images/bradesco.png" alt="Bradesco">
+                </a>
+                <a href="">
+                    <img src="./src/images/caxixa bank.png" alt="Caxixa Bank">
+                </a>
+            </div>
+        </section>
+
+        <!-- FAQ section -->
+        <section class="py-20">
+            <div class="container">
+                <h2 class="text-heading-2">Frequently Asked Questions</h2>
+
+                <div class="flex flex-col gap-6 mt-10 text-dark">
+                    <div class="collapse collapse-plus odd:bg-teritary even:bg-primary">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div
+                            class="collapse-title text-xl font-medium py-7 px-9 after:!w-6 after:!h-6 after:rounded-full after:!flex after:!items-center after:!justify-center after:border-2 after:border-dark">
+                            Who are We?</div>
+                        <div class="collapse-content bg-teritary shadow shadow-dark">
+                            <div class="pt-6 pb-9 px-9">
+                                <p class="text-paragraph-1 mb-4">We help SMEs in Central and West Africa to pay their
+                                    suppliers and partners around the
+                                    world easily. We help SMEs in Central and West Africa to pay their suppliers and
+                                    partners around the world easily.</p>
+
+                                <ul class="space-y-6 list-disc list-inside">
+                                    <li>
+                                        We help SMEs in Central and West Africa to pay their suppliers and partners
+                                        around
+                                        the world easily.
+                                    </li>
+                                    <li>
+                                        Central and West Africa to pay their suppliers and partners around the world
+                                        easily.
+                                    </li>
+                                    <li>
+                                        We help SMEs in Central and West Africa to pay their suppliers and partners
+                                        around
+                                        the world easily.
+                                    </li>
+                                    <li>
+                                        Central and West Africa to pay their suppliers and partners around the world
+                                        easily.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus odd:bg-teritary even:bg-primary">
+                        <input type="radio" name="my-accordion-3" />
+                        <div
+                            class="collapse-title text-xl font-medium py-7 px-9 after:!w-6 after:!h-6 after:rounded-full after:!flex after:!items-center after:!justify-center after:border-2 after:border-dark">
+                            Who problem are we solving?</div>
+                        <div class="collapse-content bg-teritary shadow shadow-dark">
+                            <div class="pt-6 pb-9 px-9">
+                                <p class="text-paragraph-1 mb-4">We help SMEs in Central and West Africa to pay their suppliers and partners around the world easily. We help SMEs in Central and West Africa to pay their suppliers and partners around the world easily.</p>
+                                <p class="text-paragraph-1">We help SMEs in Central and West Africa to pay their suppliers and partners around the world easily.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus odd:bg-teritary even:bg-primary">
+                        <input type="radio" name="my-accordion-3" />
+                        <div
+                            class="collapse-title text-xl font-medium py-7 px-9 after:!w-6 after:!h-6 after:rounded-full after:!flex after:!items-center after:!justify-center after:border-2 after:border-dark">
+                            Who problem are we solving?</div>
+                        <div class="collapse-content bg-teritary shadow shadow-dark">
+                            <div class="pt-6 pb-9 px-9">
+                                <p class="text-paragraph-1">Who problem are we solving?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus odd:bg-teritary even:bg-primary">
+                        <input type="radio" name="my-accordion-3" />
+                        <div
+                            class="collapse-title text-xl font-medium py-7 px-9 after:!w-6 after:!h-6 after:rounded-full after:!flex after:!items-center after:!justify-center after:border-2 after:border-dark">
+                            What are we building?</div>
+                        <div class="collapse-content bg-teritary shadow shadow-dark">
+                            <div class="pt-6 pb-9 px-9">
+                                <p class="text-paragraph-1">What are we building?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus odd:bg-teritary even:bg-primary">
+                        <input type="radio" name="my-accordion-3" />
+                        <div
+                            class="collapse-title text-xl font-medium py-7 px-9 after:!w-6 after:!h-6 after:rounded-full after:!flex after:!items-center after:!justify-center after:border-2 after:border-dark">
+                            Who are We?</div>
+                        <div class="collapse-content bg-teritary shadow shadow-dark">
+                            <div class="pt-6 pb-9 px-9">
+                                <p class="text-paragraph-1">Who are We?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Lucide icons Active -->
     <script>
         lucide.createIcons();
     </script>
+
 </body>
 
 </html>

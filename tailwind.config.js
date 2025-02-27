@@ -38,17 +38,18 @@ module.exports = {
       fontFamily: {
         "Noto-Sans": ["Noto Sans", "sans-serif"],
         Poppins: ["Poppins", "sans-serif"],
+        FontAwesome: ["FontAwesome"]
       },
       fontSize: {
-        "heading-1": ["4rem", "3rem"], // 64px, 48px
-        "heading-2": ["3rem", "2.25rem"], // 48px, 36px
-        "heading-3": ["2.25rem", "1.75rem"], // 36px, 28px
-        "heading-4": ["1.75rem", "1.25rem"], // 28px, 20px
-        "heading-5": ["1rem", "1.5rem"], // 16px, 24px
-        "heading-6": ["0.875rem", "1.25rem"], // 14px, 20px
+        "heading-1": ["4rem", "4.75rem"], // 64px, 76px
+        "heading-2": ["3rem", "3.125rem"], // 48px, 50px
+        "heading-3": ["2rem", "2.25rem"], // 32px, 36px
+        "heading-4": ["1.75rem", "2rem"], // 28px, 32px
+        "heading-5": ["1.5rem", "1.75rem"], // 24px, 28px
+        "heading-6": ["1.25rem", "1.5rem"], // 20px, 24px
 
-        "paragraph-1": ["1.5rem", "1.125rem"], // 24px, 18px
-        "paragraph-2": ["1.25rem", "1rem"], // 20px, 16px
+        "paragraph-1": ["1.5rem", "2.375rem"], // 24px, 38px
+        "paragraph-2": ["1.25rem", "1.75rem"], // 20px, 28px
 
         btn: ["1rem", "1.5rem"], // 16px, 24px
       },
