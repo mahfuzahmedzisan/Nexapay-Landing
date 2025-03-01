@@ -11,8 +11,6 @@
     <!-- Font Awesome Icons  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
 
-    <!-- Select 2 -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" /> -->
     <!-- Tailwind css  -->
     <link rel="stylesheet" href="./src/css/global.css">
     <!-- Custom css -->
@@ -330,26 +328,49 @@
         </section>
     </main>
 
+    <footer class="relative rounded-t-3xl overflow-hidden">
+        <span class="absolute bottom-0 left-0 w-full h-4/5 bg-dark rounded-t-3xl"></span>
+        <div class="bg-cover bg-no-repeat bg-center relative after:content-[''] after:absolute after:h-full after:w-full after:bg-primary/80 after:top-0 after:left-0 overflow-hidden rounded-3xl pt-10 pb-10 lg:pb-44"
+            style="background-image: url('src/images/footer.png'); ">
+            <div class="container relative z-[1]">
+                <div class="text_content text-center ">
+                    <h2 class="lg:text-heading-2 text-heading-3 lg:leading-[4.5rem] pb-6">Looking for Reliable <br>
+                        Cross-Border Payment Solutions?</h2>
+                    <button type="button" class="btn btn-primary">Get Started Today</button>
+                </div>
+                <div class="logo text-center pt-14 lg:pt-24">
+                    <img class="w-1/2 mx-auto" src="src/images/Logo (2).png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="container pt-[72px] pb-20 relative">
+            <ul class="grid grid-cols-2 md:flex justify-center text-center gap-6 md:gap-8 lg:gap-12">
+                <li>
+                    <a class="font-semibold text-paragraph-2 text-light relative pb-2 after:content-[''] after:absolute after:h-0.5 after:w-0 after:hover:w-full after:bg-primary after:top-full after:left-0 after:transition-all after:duration-300 after:ease-linear w-auto"
+                        href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="font-semibold text-paragraph-2 text-light relative pb-2 after:content-[''] after:absolute after:h-0.5 after:w-0 after:hover:w-full after:bg-primary after:top-full after:left-0 after:transition-all after:duration-300 after:ease-linear w-auto"
+                        href="about.html">About Us</a>
+                </li>
+                <li>
+                    <a class="font-semibold text-paragraph-2 text-light relative pb-2 after:content-[''] after:absolute after:h-0.5 after:w-0 after:hover:w-full after:bg-primary after:top-full after:left-0 after:transition-all after:duration-300 after:ease-linear w-auto"
+                        href="solution.html">Solutions</a>
+                </li>
+                <li>
+                    <a class="font-semibold text-paragraph-2 text-light relative pb-2 after:content-[''] after:absolute after:h-0.5 after:w-0 after:hover:w-full after:bg-primary after:top-full after:left-0 after:transition-all after:duration-300 after:ease-linear w-auto"
+                        href="contact.html">Success Stories</a>
+                </li>
+            </ul>
+
+            <p class="text-light/50 text-center pt-24">All Rights Reserved</p>
+        </div>
+    </footer>
 
     <!-- Lucide icons Active -->
     <script>
         lucide.createIcons();
-    </script>
-    <!-- jquery  -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
-    <!-- Select 2 -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-    <script>
-       $(document).ready(function() {
-        $('#phone_code').select2({
-            templateResult: formatState
-        });
-        function formatState(state) {
-            if (!state.id) { return state.text; } // return if the option is empty
-            var $state = $('<span><img src="' + $(state.element).data('image') + '" width="20" /> ' + state.text + '</span>');
-            return $state;
-        }
-    }); -->
     </script>
 </body>
 
