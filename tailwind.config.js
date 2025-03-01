@@ -53,6 +53,9 @@ module.exports = {
 
         btn: ["1rem", "1.5rem"], // 16px, 24px
       },
+      boxShadow: {
+        "primary-shadow": "0px 3px 8px rgba(0, 0, 0, 0.24)",
+      }
     },
   },
   plugins: [require("daisyui")],
