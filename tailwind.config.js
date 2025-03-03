@@ -31,6 +31,7 @@ module.exports = {
 
         "text-dark": "#333333",
         "text-gray": "#707479",
+        'text-gray-2': '#94A0AD',
 
         "border-light": "#DFE5EA",
         "hover-bg-dark": '#1F314FCC',
