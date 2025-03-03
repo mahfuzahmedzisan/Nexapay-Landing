@@ -9,12 +9,12 @@ module.exports = {
         lg: "0",
       },
       screens: {
-        sm: "480px",
-        md: "640px",
-        lg: "768px",
-        xl: "992px",
-        "2xl": "1024px",
-        "3xl": "1120px",
+        sm: "30rem", // 480px
+        md: "40rem", // 640px
+        lg: "48rem", // 768px
+        xl: "62rem", // 992px
+        "2xl": "64rem", // 1024px
+        "3xl": "70rem", // 1120px
       },
     },
     extend: {
@@ -23,7 +23,6 @@ module.exports = {
         secondary: "#FFE70C",
         teritary: "#FFF4B0",
         quaternary: "#EFF2F5",
-        
 
         dark: "#101820",
         "dark-gray": "#1F314F",
@@ -34,25 +33,29 @@ module.exports = {
         "text-gray": "#707479",
 
         "border-light": "#DFE5EA",
-        "hover-bg-dark":'#1F314FCC',
+        "hover-bg-dark": '#1F314FCC',
       },
       fontFamily: {
         "Noto-Sans": ["Noto Sans", "sans-serif"],
         Poppins: ["Poppins", "sans-serif"],
+        FontAwesome: ["FontAwesome"]
       },
       fontSize: {
-        "heading-1": ["48px", "64px"],
-        "heading-2": ["36px", "48px"],
-        "heading-3": ["28px", "36px"],
-        "heading-4": ["20px", "28px"],
-        "heading-5": ["16px", "24px"],
-        "heading-6": ["14px", "20px"],
+        "heading-1": ["4rem", "4.75rem"], // 64px, 76px
+        "heading-2": ["3rem", "3.125rem"], // 48px, 50px
+        "heading-3": ["2rem", "2.25rem"], // 32px, 36px
+        "heading-4": ["1.75rem", "2rem"], // 28px, 32px
+        "heading-5": ["1.5rem", "1.75rem"], // 24px, 28px
+        "heading-6": ["1.25rem", "1.5rem"], // 20px, 24px
 
-        "paragraph-1": ["18px", "24px"],
-        "paragraph-2": ["16px", "20px"],
+        "paragraph-1": ["1.5rem", "2.375rem"], // 24px, 38px
+        "paragraph-2": ["1.25rem", "1.75rem"], // 20px, 28px
 
-        btn: ["16px", "24px"],
+        btn: ["1rem", "1.5rem"], // 16px, 24px
       },
+      boxShadow: {
+        "primary-shadow": "0px 3px 8px rgba(0, 0, 0, 0.24)",
+      }
     },
   },
   plugins: [require("daisyui")],

@@ -9,7 +9,7 @@
     <!-- Lucide icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
     <!-- Font Awesome Icons  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
 
     <!-- Tailwind css  -->
     <link rel="stylesheet" href="./src/css/global.css">
@@ -18,13 +18,129 @@
 
 <body>
 
-    
+    <!-- Header Section -->
+    <header class="absolute bg-transparent top-14 z-50 left-0 w-full">
+        <div class="container">
+            <div class="mb-3">
+                <div class="text-center">
+                    <a class="btn btn-ghost normal-case text-xl"><img src="./src/images/Logo.png" alt="NexaPay"></a>
+                </div>
+            </div>
+            <div class="navbar">
+                <div class="flex-1 md:hidden">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h16M4 18h7" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-light rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a class="p-0" href="/">Home</a></li>
+                            <li><a class="p-0" href="about.html">About Us</a></li>
+                            <li><a class="p-0" href="services.html">Services</a></li>
+                            <li><a class="p-0" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex-1 hidden md:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li
+                            class="font-semibold text-paragraph-2 mr-12 last:mr-0 relative pb-2 after:content-[''] after:absolute after:h-0.5 after:w-0 after:hover:w-full after:bg-dark after:top-full after:left-0 after:transition-all after:duration-300 after:ease-linear">
+                            <a class="p-0" href="index.html">Home</a>
+                        </li>
+                        <li
+                            class="font-semibold text-paragraph-2 mr-12 last:mr-0 relative pb-2 after:content-[''] after:absolute after:h-0.5 after:w-0 after:hover:w-full after:bg-dark after:top-full after:left-0 after:transition-all after:duration-300 after:ease-linear">
+                            <a class="p-0" href="about.html">About Us</a>
+                        </li>
+                        <li
+                            class="font-semibold text-paragraph-2 mr-12 last:mr-0 relative pb-2 after:content-[''] after:absolute after:h-0.5 after:w-full after:bg-dark after:top-full after:left-0 after:transition-all after:duration-300 after:ease-linear">
+                            <a class="p-0" href="solution.html">Solutions</a>
+                        </li>
+                        <li
+                            class="font-semibold text-paragraph-2 mr-12 last:mr-0 relative pb-2 after:content-[''] after:absolute after:h-0.5 after:w-0 after:hover:w-full  after:bg-dark after:top-full after:left-0 after:transition-all after:duration-300 after:ease-linear">
+                            <a class="p-0" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex-none flex gap-5">
+                    <a href="#" class="btn btn-primary px-3 lg:px-5 py-2 lg:py-3"><img
+                            src="./src/images/security-user.png" alt="">Login</a>
+                    <div class="dropdown dropdown-bottom dropdown-end">
+                        <div tabindex="0" role="button" class="btn bg-transparent m-1">
+                            <img class="avatar !w-5" src="./src/images/eng flag.png" alt="Flag">Eng <i
+                                class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <ul tabindex="0" class="dropdown-content menu bg-light rounded-box z-[1] w-24 p-2 shadow">
+                            <li><a href=""><img class="avatar !w-5" src="./src/images/eng flag.png" alt="Flag">Eng</a>
+                            </li>
+                            <li><a href=""><img class="avatar !w-5" src="./src/images/eng flag.png" alt="Flag">Eng</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section
+        class="bg-cover bg-no-repeat bg-center relative after:content-[''] after:absolute after:h-full after:w-full after:bg-primary/80 after:top-0 after:left-0 after:z-[1] overflow-hidden rounded-b-3xl min-h-[200px]"
+        style="background-image: url('./src/images/Photo.jpg');">
+    </section>
 
+    <main>
+        <div class="container h-screen flex items-center justify-center">
+            <h3 class="text-heading-3">Page will be added soon</h3>
+        </div>
+    </main>
+
+    <!-- Footer  -->
+    <footer class="relative rounded-t-3xl overflow-hidden">
+        <span class="absolute bottom-0 left-0 w-full h-4/5 bg-dark rounded-t-3xl"></span>
+        <div class="bg-cover bg-no-repeat bg-center relative after:content-[''] after:absolute after:h-full after:w-full after:bg-primary/80 after:top-0 after:left-0 overflow-hidden rounded-3xl pt-10 pb-10 lg:pb-44"
+            style="background-image: url('src/images/footer.png'); ">
+            <div class="container relative z-[1]">
+                <div class="text_content text-center ">
+                    <h2 class="lg:text-heading-2 text-heading-3 lg:leading-[4.5rem] pb-6">Looking for Reliable <br>
+                        Cross-Border Payment Solutions?</h2>
+                    <button type="button" class="btn btn-primary">Get Started Today</button>
+                </div>
+                <div class="logo text-center pt-14 lg:pt-24">
+                    <img class="w-1/2 mx-auto" src="src/images/Logo (2).png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="container pt-[72px] pb-20 relative">
+            <ul class="grid grid-cols-2 md:flex justify-center text-center gap-6 md:gap-8 lg:gap-12">
+                <li>
+                    <a class="font-semibold text-paragraph-2 text-light relative pb-2 after:content-[''] after:absolute after:h-0.5 after:w-0 after:hover:w-full after:bg-primary after:top-full after:left-0 after:transition-all after:duration-300 after:ease-linear w-auto"
+                        href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="font-semibold text-paragraph-2 text-light relative pb-2 after:content-[''] after:absolute after:h-0.5 after:w-0 after:hover:w-full after:bg-primary after:top-full after:left-0 after:transition-all after:duration-300 after:ease-linear w-auto"
+                        href="about.html">About Us</a>
+                </li>
+                <li>
+                    <a class="font-semibold text-paragraph-2 text-light relative pb-2 after:content-[''] after:absolute after:h-0.5 after:w-0 after:hover:w-full after:bg-primary after:top-full after:left-0 after:transition-all after:duration-300 after:ease-linear w-auto"
+                        href="solution.html">Solutions</a>
+                </li>
+                <li>
+                    <a class="font-semibold text-paragraph-2 text-light relative pb-2 after:content-[''] after:absolute after:h-0.5 after:w-0 after:hover:w-full after:bg-primary after:top-full after:left-0 after:transition-all after:duration-300 after:ease-linear w-auto"
+                        href="contact.html">Success Stories</a>
+                </li>
+            </ul>
+
+            <p class="text-light/50 text-center pt-24">All Rights Reserved</p>
+        </div>
+    </footer>
     <!-- Lucide icons Active -->
     <script>
         lucide.createIcons();
-      </script>
+    </script>
 </body>
 
 </html>

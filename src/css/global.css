@@ -5,6 +5,13 @@
 @tailwind utilities;
 
 @layer components {
+<<<<<<< HEAD
+=======
+  body {
+    @apply font-Noto-Sans;
+  }
+
+>>>>>>> e2ebdb413ccc8d2e83011ff241966b1e5db1ddac
   h1,
   h2,
   h3,
