@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nexas Pay</title>
+    <link rel="shortcut icon" href="./src/images/Logo N.png" type="image/x-icon">
     <!-- Lucide icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
     <!-- Font Awesome Icons  -->
@@ -22,7 +23,8 @@
         <div class="container">
             <div class="mb-3">
                 <div class="text-center">
-                    <a href="/" class="btn btn-ghost normal-case text-xl"><img src="./src/images/Logo.png" alt="NexaPay"></a>
+                    <a href="/" class="btn btn-ghost normal-case text-xl"><img src="./src/images/Logo.png"
+                            alt="NexaPay"></a>
                 </div>
             </div>
             <div class="navbar">
@@ -194,7 +196,7 @@
         </section>
 
         <!-- Testimonial Section -->
-        <section class="py-20 bg-primary rounded-3xl">
+        <!-- <section class="py-20 bg-primary rounded-3xl">
             <div class="container">
                 <h2 class="text-heading-2 text-center">Trusted by Buyers and Banking Partners</h2>
                 <div class="flex items-center gap-10 mt-5 justify-center">
@@ -216,7 +218,6 @@
                     </button>
                 </div>
             </div>
-            <!-- Slider -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 overflow-hidden mt-10 px-2 lg:px-20">
                 <div class="card bg-white max-w-[548px]">
                     <div class="card-body p-14">
@@ -258,7 +259,98 @@
                     See More Success Stories
                 </button>
             </div>
+        </section> -->
+        <!-- Testimonial Section -->
+        <section class="py-20 bg-primary rounded-3xl">
+            <div class="container">
+                <h2 class="text-heading-2 text-center">Trusted by Buyers and Banking Partners</h2>
+                <div class="flex items-center gap-10 mt-5 justify-center">
+                    <button id="prevBtn"
+                        class="w-8 h-8 border border-dark text-dark rounded flex items-center justify-center">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </button>
+                    <div class="dots-container flex items-center gap-2"></div>
+                    <button id="nextBtn"
+                        class="w-8 h-8 border border-dark text-dark rounded flex items-center justify-center">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Slider -->
+            <div class="overflow-hidden px-2 lg:px-20">
+                <div class="testimonial-slider flex gap-10 mt-10 transition-transform ease-in-out duration-500">
+                    <div class="card rounded-2xl overflow-hidden bg-white w-full md:w-1/2 lg:w-1/3 flex-[0_0_auto]">
+                        <div class="card-body p-14">
+                            <h4 class="text-heading-4 mb-7">NexaPay streamlined our Brazil-Asia transactions, cutting
+                                payment
+                                delays by 50%.</h4>
+                            <div class="flex gap-10">
+                                <a href=""><img class="avatar w-10 h-auto object-cover rounded-full"
+                                        src="./src/images/Photo (1).png" alt="Author"></a>
+                                <p>Client, <br>
+                                    Brazilian Importer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-2xl overflow-hidden bg-white w-full md:w-1/2 lg:w-1/3 flex-[0_0_auto] relative">
+                        <span class="absolute inset-0 bg-dark/50 z-0"></span>
+                        <button
+                            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-3xl text-light w-16 h-16 rounded-full flex items-center justify-center bg-dark/80 z-[1]"><i
+                                data-lucide="play"></i></button>
+                        <img class="w-full object-cover" src="./src/images/Rectangle 10.png" alt="Video">
+                    </div>
+                    <div class="card rounded-2xl overflow-hidden bg-white w-full md:w-1/2 lg:w-1/3 flex-[0_0_auto]">
+                        <div class="card-body p-14">
+                            <h4 class="text-heading-4 mb-7">NexaPay streamlined our Brazil-Asia transactions, cutting
+                                payment
+                                delays by 50%.</h4>
+                            <div class="flex gap-10">
+                                <a href=""><img class="avatar w-10 h-auto object-cover rounded-full"
+                                        src="./src/images/Photo (1).png" alt="Author"></a>
+                                <p>Client, <br>
+                                    Brazilian Importer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-2xl overflow-hidden bg-white w-full md:w-1/2 lg:w-1/3 flex-[0_0_auto] relative">
+                        <span class="absolute inset-0 bg-dark/50 z-0"></span>
+                        <button
+                            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-3xl text-light w-16 h-16 rounded-full flex items-center justify-center bg-dark/80 z-[1]"><i
+                                data-lucide="play"></i></button>
+                        <img class="w-full object-cover" src="./src/images/Rectangle 10.png" alt="Video">
+                    </div>
+                    <div class="card rounded-2xl overflow-hidden bg-white w-full md:w-1/2 lg:w-1/3 flex-[0_0_auto]">
+                        <div class="card-body p-14">
+                            <h4 class="text-heading-4 mb-7">NexaPay streamlined our Brazil-Asia transactions, cutting
+                                payment
+                                delays by 50%.</h4>
+                            <div class="flex gap-10">
+                                <a href=""><img class="avatar w-10 h-auto object-cover rounded-full"
+                                        src="./src/images/Photo (1).png" alt="Author"></a>
+                                <p>Client, <br>
+                                    Brazilian Importer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-2xl overflow-hidden bg-white w-full md:w-1/2 lg:w-1/3 flex-[0_0_auto] relative">
+                        <span class="absolute inset-0 bg-dark/50 z-0"></span>
+                        <button
+                            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-3xl text-light w-16 h-16 rounded-full flex items-center justify-center bg-dark/80 z-[1]"><i
+                                data-lucide="play"></i></button>
+                        <img class="w-full object-cover" src="./src/images/Rectangle 10.png" alt="Video">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container text-center mt-16">
+                <button class="btn btn-primary shadow-lg shadow-dark">
+                    See More Success Stories
+                </button>
+            </div>
         </section>
+
+
 
 
         <!-- Partners Section -->
@@ -420,6 +512,93 @@
         lucide.createIcons();
     </script>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const slider = document.querySelector('.testimonial-slider');
+            const testimonials = document.querySelectorAll('.card');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const dotsContainer = document.querySelector('.dots-container');
+            let currentIndex = 0;
+
+            // Function to get card width dynamically based on screen size
+            const getCardWidth = () => {
+                return testimonials[0].offsetWidth;
+            };
+
+            // Function to determine visible cards dynamically
+            const getVisibleCards = () => {
+                return window.innerWidth >= 1024 ? 3 : window.innerWidth >= 768 ? 2 : 1; // lg: 3, md: 2, sm: 1
+            };
+
+            let visibleCards = getVisibleCards();
+            let cardWidth = getCardWidth();
+            let maxIndex = testimonials.length - visibleCards;
+
+            // Create dynamic pagination dots
+            const createDots = () => {
+                dotsContainer.innerHTML = '';
+                for (let i = 0; i <= maxIndex; i++) {
+                    const dot = document.createElement('span');
+                    dot.classList.add('dot', 'w-2', 'h-2', 'rounded-full', 'cursor-pointer', 'bg-dark/50', 'transition-all');
+                    if (i === 0) dot.classList.add('bg-dark');
+                    dot.addEventListener('click', () => goToSlide(i));
+                    dotsContainer.appendChild(dot);
+                }
+            };
+
+            // Function to update slider position
+            const updateSliderPosition = () => {
+                cardWidth = getCardWidth();
+                visibleCards = getVisibleCards();
+                maxIndex = testimonials.length - visibleCards;
+
+                const offset = -currentIndex * cardWidth;
+                slider.style.transform = `translateX(${offset}px)`;
+
+                document.querySelectorAll('.dot').forEach((dot, index) => {
+                    dot.classList.toggle('bg-dark', index === currentIndex);
+                    dot.classList.toggle('bg-dark/50', index !== currentIndex);
+                });
+            };
+
+            // Slide next
+            const goToNext = () => {
+                if (currentIndex < maxIndex) {
+                    currentIndex++;
+                } else {
+                    currentIndex = 0;
+                }
+                updateSliderPosition();
+            };
+
+            // Slide previous
+            const goToPrev = () => {
+                if (currentIndex > 0) {
+                    currentIndex--;
+                } else {
+                    currentIndex = maxIndex;
+                }
+                updateSliderPosition();
+            };
+
+            // Slide to specific index
+            const goToSlide = (index) => {
+                currentIndex = index;
+                updateSliderPosition();
+            };
+
+            // Event listeners
+            nextBtn.addEventListener('click', goToNext);
+            prevBtn.addEventListener('click', goToPrev);
+            window.addEventListener('resize', updateSliderPosition);
+
+            // Initialize
+            createDots();
+            updateSliderPosition();
+        });
+
+    </script>
 </body>
 
 </html>
